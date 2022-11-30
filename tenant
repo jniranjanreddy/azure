@@ -1,0 +1,3 @@
+## Azure Tenant - This is a dedicated and Trusted instance of Azure AD.
+## Azure AD Directory - Each Azure Tenant has a dedicated and Trusted Azure directory.
+## This Includes the tenant's users, groups and applications and is used for performing identity and access management onto Resources.
