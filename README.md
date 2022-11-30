@@ -1,4 +1,5 @@
 ## Azure Local
+
 ```
 C:\Users\NJannapureddy> winget install Microsoft.AzureFunctionsCoreTools
 Found Azure Functions Core Tools [Microsoft.AzureFunctionsCoreTools] Version 4.0.4785
@@ -11,4 +12,5 @@ Starting package install...
 Successfully installed
 
 C:\Users\NJannapureddy>
+
 ```
