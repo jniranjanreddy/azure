@@ -68,6 +68,8 @@ jobs:
            pwd	  
 ```
 ## Designing and Implementing Microsoft DevOps Solutions
+## Source: https://learn.microsoft.com/en-us/certifications/exams/az-400/
+## https://learn.microsoft.com/en-us/certifications/devops-engineer/
 ![image](https://github.com/jniranjanreddy/azure/assets/83489863/9caf2e41-d410-42e7-b234-90c15128b0f6)
 
 
