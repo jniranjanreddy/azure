@@ -67,7 +67,7 @@ jobs:
            az group list
            pwd	  
 ```
-
+## Designing and Implementing Microsoft DevOps Solutions
 ![image](https://github.com/jniranjanreddy/azure/assets/83489863/9caf2e41-d410-42e7-b234-90c15128b0f6)
 
 
