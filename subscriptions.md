@@ -12,12 +12,20 @@ You can have more than one subscription, often for billing purposes, since each 
 The person who creates an Azure subscription becomes the global administrator for that subscription and has full access to every aspect of that subscription
 hence separate subscriptions can also be a way to create a division of responsibility for Azure services.
 ```
-*Types of subscriptions
+### Types of subscriptions
 ```
 There are several ways to create a subscription with Microsoft Azure; I will attempt to highlight the most common. A comprehensive list of subscription types may be seen on the Microsoft Azure Offer Details webpage.
 
-A Microsoft Enterprise Agreement (EA) is a large-scale licence agreement with Microsoft. The Enterprise Agreement is a three-year contract with Microsoft most commonly found in giant enterprises with 500 or more users. One of the most prevalent sorts of subscriptions is the EA. See also Enterprise Dev/Test, which gives you the same access as an Enterprise Agreement but at a lower cost for development and testing workloads.
-Pay-as-you-go — The second most popular subscription option is pay-as-you-go. In most cases, the company will keep a credit card file. A client may, on rare occasions, pay via invoice.
-Free Trial — Anyone may join up for a 30-day Azure Free Trial. A $200 Azure spend credit is included in the free trial membership. Once a payment card is on file, a free trial becomes a paid trial.
-CSP stands for Cloud Solutions Partner, and subscriptions to CSP are acquired through a Microsoft partner.
+1. A Microsoft Enterprise Agreement (EA) is a large-scale licence agreement with Microsoft. The Enterprise Agreement is a three-year contract with Microsoft most 
+   commonly found in giant enterprises with 500 or more users. One of the most prevalent sorts of subscriptions is the EA. See also Enterprise Dev/Test, which gives 
+   you the same access as an Enterprise Agreement but at a lower cost for development and testing workloads.
+2. Pay-as-you-go — The second most popular subscription option is pay-as-you-go. In most cases, the company will keep a credit card file. A client may, on rare 
+   occasions, pay via invoice.
+3. Free Trial — Anyone may join up for a 30-day Azure Free Trial. A $200 Azure spend credit is included in the free trial membership. Once a payment card is on file, a 
+   free trial becomes a paid trial.
+4. CSP stands for Cloud Solutions Partner, and subscriptions to CSP are acquired through a Microsoft partner.
+```
+## Subscription design
+```
+Subscriptions, in addition to Management Groups, offer several tiers for organizing Azure Resources to fit the company's needs. Ultimately, it's up to the company to figure out how to structure Azure Resources using Azure Subscriptions. My advice is to start small. In general, I advise beginning with two subscriptions: one for production resources and another for non-production resources like development and testing.
 ```
