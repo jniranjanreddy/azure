@@ -1,4 +1,13 @@
 ## Storage Accounts
+```
+LRS    - Local Redunat Storage
+GRS    - Geo-redundant storage
+ZRS    - Zone reduantadt Storage
+GZRS   - Geo-
+RAGZRS - read-access geo-zone-redundant storage.
+
+
+```
 |Type of storage account|Supported storage services | Redundancy options | Usage |
 |-----------------------|---------------------------|--------------------|-------|
 |Standard general-purpose v2|Blob Storage (including Data Lake Storage1), Queue Storage, Table Storage, and Azure Files| Locally redundant storage (LRS) / geo-redundant storage (GRS) / read-access geo-redundant storage (RA-GRS) Zone-redundant storage (ZRS) / geo-zone-redundant storage (GZRS) / read-access geo-zone-redundant storage (RA-GZRS)2|Locally redundant storage (LRS) / geo-redundant storage (GRS) / read-access geo-redundant storage (RA-GRS) |
