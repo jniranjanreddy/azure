@@ -20,3 +20,56 @@ RAGZRS - read-access geo-zone-redundant storage.
 ```
 
 ```
+## Create Storage Accounts
+```
+az storage account create \
+    --name <storage-account> \
+    --resource-group <resource-group> \
+    --location <location> \
+    --sku Standard_ZRS \
+    --encryption-services blob
+```
+## Create Container
+```
+az ad signed-in-user show --query id -o tsv | az role assignment create \
+    --role "Storage Blob Data Contributor" \
+    --assignee @- \
+    --scope "/subscriptions/<subscription>/resourceGroups/<resource-group>/providers/Microsoft.Storage/storageAccounts/<storage-account>"
+
+az storage container create \
+    --account-name <storage-account> \
+    --name <container> \
+    --auth-mode login
+```
+## Upload to Blob Storage
+```
+az storage blob upload \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --name myFile.txt \
+    --file myFile.txt \
+    --auth-mode login
+```
+
+## List the blobs in a container
+```
+az storage blob list \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --output table \
+    --auth-mode login
+```
+## Download a Blob
+az storage blob download \
+    --account-name <storage-account> \
+    --container-name <container> \
+    --name myFile.txt \
+    --file <~/destination/path/for/file> \
+    --auth-mode login
+
+## Cleanup Resources
+```
+az group delete \
+    --name <resource-group> \
+    --no-wait
+```

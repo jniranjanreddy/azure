@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: nginx
+  name: nginx
+spec:
+  containers:
+  - image: nginx
+    name: nginx
+    volumeMounts:
+    - name: nfs-vol
+      mountPath: /airflow-nfs-mount # The mountpoint inside the container
+  volumes:
+  - name: nfs-vol
+    nfs:
+      server: 192.168.9.10 # IP to our NFS server
+      path: /airflow # The exported directory
