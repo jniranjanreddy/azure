@@ -15,5 +15,8 @@
 ## Update existing Cluster
 ```
 az aks update -n myAKSCluster -g myResourceGroup --enable-disk-driver --enable-file-driver
+
 ```
+![image](https://github.com/jniranjanreddy/azure/assets/83489863/e8c38694-b885-4fcc-8863-52f93b0a239b)
+
 ![image](https://github.com/jniranjanreddy/azure/assets/83489863/c5880fb2-f9a7-4a0c-a8a4-9f34b99864e2)
