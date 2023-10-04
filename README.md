@@ -1,5 +1,12 @@
 ## Azure Local
 
+## How to change Azure Devops Project from Basic to Agile.
+## Source: https://learn.microsoft.com/en-us/azure/devops/organizations/settings/work/change-process-basic-to-agile?view=azure-devops
+```
+Once Organisationa and Projects created in Azure DevOps
+need to create a Service connection
+project Settings --> Service Connection -->
+```
 ```
 C:\Users\NJannapureddy> winget install Microsoft.AzureFunctionsCoreTools
 Found Azure Functions Core Tools [Microsoft.AzureFunctionsCoreTools] Version 4.0.4785
