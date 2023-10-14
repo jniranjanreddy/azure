@@ -28,6 +28,13 @@ Two purchase methods
       And are signed in with an Active Directory Domain Services account belonging to that Organization.
       They exist in the Cloud and on-premises.
 
+2 Types of groups
+  1. security group
+  2. Microsoft 365
+
+Dynamic groups
+
+
 
 
 ```
