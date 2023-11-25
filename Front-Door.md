@@ -16,7 +16,8 @@ and local points of presence (PoPs) distributed around the world close to both y
 
 
 ## Routing Archotecture
-![Uploading image.png…]()
+![image](https://github.com/jniranjanreddy/azure/assets/83489863/6beac5c5-05fa-44f2-b36a-c758937a874d)
+
 
 NOTES;
 1. Global service
