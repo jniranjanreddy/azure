@@ -1,3 +1,4 @@
+## Helpful - https://github.com/projectkudu/kudu/wiki/File-structure-on-azure
 ## This nodesjs web-app for Azure
 ```
 root@pathflow-local /myworkspace # mkdir web-app-nodejs
