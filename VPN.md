@@ -20,3 +20,23 @@ How to configure VPN  to access Azure resoures Localls
 
 ## Site-to-site
 ![image](https://github.com/jniranjanreddy/azure/assets/83489863/6ec097d8-cc10-4a14-8cfc-cc62f27e80a4)
+
+
+# Powershell command to check VPN 
+```
+# Get-AzVirtualNetworkGateway -ResourceGroupName phs-stg-rg -Name phs-stg-vpn
+
+ResourceGroupName Name        Location       GatewayType VpnType    EnableBgp DisableIPsecProtection EnablePrivateIpAddress ActiveAc
+                                                                                                                            tive
+----------------- ----        --------       ----------- -------    --------- ---------------------- ---------------------- --------
+jnr-stg-rg        jnr-stg-vpn northcentralus Vpn         RouteBased False     False                  False                  False
+
+# $gateway = Get-AzVirtualNetworkGateway -ResourceGroupName jnr-stg-rg -Name jnr-stg-vpn
+# PS C:\Users\NJannapureddy> Reset-AzVirtualNetworkGateway -VirtualNetworkGateway $gateway
+
+ResourceGroupName Name        Location       GatewayType VpnType    EnableBgp DisableIPsecProtection EnablePrivateIpAddress ActiveAc
+                                                                                                                            tive
+----------------- ----        --------       ----------- -------    --------- ---------------------- ---------------------- --------
+jnr-stg-rg        jnr-stg-vpn northcentralus Vpn         RouteBased False     False                  False                  False
+
+```
