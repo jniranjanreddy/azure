@@ -7,4 +7,24 @@ https://www.youtube.com/watch?v=ZKFiJ4aTnts&list=PL4z_hOgrhWyCCSQQhaka9MO3hswfFU
 ## Kusto Query Language (KQL):
 ```
 
+Application Insights
+availabilityResults
+browserTimings
+customEvents
+customMetrics
+dependencies
+exceptions
+pageViews
+performanceCounters
+requests
+traces
+```
+
+
+## Traces
+```
+requests
+| where resultCode != 200
+| where resultCode != 300
+
 ```
