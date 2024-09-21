@@ -1,6 +1,8 @@
 ## How to confogure Application Gateway.
 ```
 Source:  https://www.youtube.com/watch?v=QqXRBye8HLI&t=1s
+https://www.youtube.com/watch?v=n9uHSHO25cE&t=1s
+https://www.youtube.com/watch?v=B3O6bXu-NbM
 
 Step -1
 Create Selfsing Certificate.
