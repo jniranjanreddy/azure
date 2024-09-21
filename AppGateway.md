@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=B3O6bXu-NbM
 Step -1
 Create Selfsing Certificate.
 Powershell Command
- New-SelfSignCertificate -certstorelocation c:\users\user1\Downloads -dnsname www.contso.com 
+ New-SelfSignedCertificate -certstorelocation c:\users\user1\Downloads -dnsname www.contso.com 
 ```
 ![image](https://github.com/user-attachments/assets/f5f51724-28f8-4ce1-842d-5d1a21b41bde)
 
