@@ -82,3 +82,9 @@ How do you configure SSL/TLS offload in Azure App Gateway
 What are the best practices for securing Azure App Gateway
 
 ```
+![image](https://github.com/user-attachments/assets/75942f24-4221-4c66-8464-234b2df8b0fe)
+
+
+![image](https://github.com/user-attachments/assets/c0823381-4d1d-4517-8509-9430372279ea)
+
+
