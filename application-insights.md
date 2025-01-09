@@ -27,4 +27,7 @@ requests
 | where resultCode != 200
 | where resultCode != 300
 
+traces | where cloud_RoleName
+             == "jnr-uat-pagent"
+
 ```
