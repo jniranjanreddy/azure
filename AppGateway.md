@@ -86,5 +86,18 @@ What are the best practices for securing Azure App Gateway
 
 ![image](https://github.com/user-attachments/assets/0f6c4644-c0d8-48af-ac69-9bdbedc5dadd)
 
+## Trouble shooting..
+```
+1. Where we can check logs in AppGateway.
+   Appgatway -> logs -> AGWAccessLogs
+                        AGWFirewallLogs
+                        AzureDiagnostics
+                        AzureMetrics
+2. In insights, we can see the routing map.
+3. To whitelist any external IP's, in the VNET, there is a subnet called <env>-appgw-snet, and it is associated with
+   a NSG <env>-prod-appgw, add rules in the outbound.
+   
+   
+```
 
 
