@@ -3,7 +3,7 @@
 ## Source https://github.com/Azure/azure-functions-core-tools?tab=readme-ov-file
 ## Func Cli - https://www.youtube.com/watch?v=D1kL-WMMZZY&t=1s
 ## https://www.youtube.com/watch?v=pLLsx09wmBA&list=PLjnD_dJD1QbbKS4jIqBXP3lLgYE5JeSUA&index=1
-
+## https://www.youtube.com/watch?v=eS5GJkI69Qg&list=PLMWaZteqtEaLRsSynAsaS_aLzDPBUU4CV
 
 ## Description-
 ```
