@@ -29,7 +29,10 @@ tmpfs /dev/shm tmpfs rw,nosuid,nodev,noexec 0 0
 UUID=3414d5a7-31bd-45d1-b2b9-14f8309a2 /milvus-data   xfs defaults,nofail   0   0
 
 ```
-
+## Mount a disk in othet VM
 ```
+[root@dev-milvis ~]# mount  /dev/sdd1 /airflowVMDISK
+mount: /airflowVMDISK: wrong fs type, bad option, bad superblock on /dev/sdd1, missing codepage or helper program, or other error.
 
+mount -t xfs -o nouuid,rw /dev/sdd1 /airflowVMDISK
 ```
