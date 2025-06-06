@@ -35,4 +35,22 @@ UUID=3414d5a7-31bd-45d1-b2b9-14f8309a2 /milvus-data   xfs defaults,nofail   0   
 mount: /airflowVMDISK: wrong fs type, bad option, bad superblock on /dev/sdd1, missing codepage or helper program, or other error.
 
 mount -t xfs -o nouuid,rw /dev/sdd1 /airflowVMDISK
+
+clean up the space,
+
+if you want to reset the password,
+sudo mount --bind /dev /tmp/othervmdisk/dev
+sudo mount --bind /proc /tmp/othervmdisk/proc
+sudo mount --bind /sys /tmp/othervmdisk/sys
+sudo chroot /tmp/othervmdisk
+
+
+to unmount
+sudo umount /tmp/othervmdisk/dev
+sudo umount /tmp/othervmdisk/proc
+sudo umount /tmp/othervmdisk/sys
+sudo umount /tmp/othervmdisk
+
+
+
 ```
