@@ -66,7 +66,7 @@ ServiceBus Topic trigger
 Timer Trigger
 ```
 ## 
-
+## starting blob - azurite --silent --location c:\Users\NiranjanJannapureddy\azurite --debug c:\Users\NiranjanJannapureddy\azurite\debug.log
 
 
 
