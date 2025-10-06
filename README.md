@@ -2,6 +2,7 @@
 
 ## How to change Azure Devops Project from Basic to Agile.
 ## Source: https://learn.microsoft.com/en-us/azure/devops/organizations/settings/work/change-process-basic-to-agile?view=azure-devops
+## https://www.youtube.com/watch?v=qwph02XQzSI&list=PLboJ9yx0c_SVsvSHyvhLahxZwAU0G-5-Z&index=1
 ```
 Once Organisationa and Projects created in Azure DevOps
 need to create a Service connection
