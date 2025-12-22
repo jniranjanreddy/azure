@@ -68,7 +68,14 @@ Timer Trigger
 ## 
 ## starting blob - azurite --silent --location c:\Users\NiranjanJannapureddy\azurite --debug c:\Users\NiranjanJannapureddy\azurite\debug.log
 
+##################
+## How to run function app manually.
 
+```
+az functionapp function keys list --name data_uat_reprocessing --resource-group jnr-uat-rg --function-name data_uat_reprocessing
+curl -X POST "https://jnr-uat-listener.azurewebsites.net/admin/functions/data_uat_reprocessing" -H "x-functions-key: <MASTER_KEY>" -H "Content-Type: application/json" -d "{}"
+
+```
 
 
 
