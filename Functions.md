@@ -77,6 +77,14 @@ curl -X POST "https://jnr-uat-listener.azurewebsites.net/admin/functions/data_ua
 
 ```
 
+## after completining the function app. 
+```
+func --version
+4.0.6821
+
+How to publish to function app Publish to function app
+func azure functionapp publish uat-maintenance --python
+```
 
 
 
