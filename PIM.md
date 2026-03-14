@@ -21,3 +21,11 @@ Learning Curve: IT teams need training to fully understand and utilize PIM featu
 Dependency on Azure AD Availability: PIM relies on Azure AD’s availability, and any downtime or issues with Azure AD could impact access.
 In essence, Azure PIM is highly useful for organizations with strict security and compliance needs, though it may require thoughtful configuration and training to be used effectively.
 ```
+```
+
+1. Just in Time access
+2, Just enough Access
+3, Privilage Admin workflow
+4. Audit-Ready
+
+```
