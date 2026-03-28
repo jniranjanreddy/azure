@@ -18,3 +18,9 @@ The push refers to repository [pcregistry.azurecr.io/hello-world]
 v1: digest: sha256:c62ead5b8c16c266d0fcddd93fea882eb722c3be4 size: 739
 
 ```
+az acr import \
+  --name targetacr \
+  --source sourceacr.azurecr.io/myapp:v1 \
+  --image myapp:v1 \
+  --username <source-acr-username> \
+  --password <source-acr-password>
