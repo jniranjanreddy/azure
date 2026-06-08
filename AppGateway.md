@@ -99,5 +99,37 @@ What are the best practices for securing Azure App Gateway
    
    
 ```
+## Rewrite Rules
+<img width="868" height="535" alt="image" src="https://github.com/user-attachments/assets/6d958fed-146f-4346-97e9-6c2c3c2959b6" />
 
 
+# WAF
+<img width="863" height="464" alt="image" src="https://github.com/user-attachments/assets/ab5df633-4fbb-4445-98d3-7b6d13f2fa8e" />
+
+<img width="706" height="441" alt="image" src="https://github.com/user-attachments/assets/64481004-c25c-490b-a763-99c517ccc2e4" />
+
+```
+Best Learning Sources
+Microsoft Learn
+Azure Application Gateway Overview
+Application Gateway Components
+Application Gateway Listener Configuration
+Azure Application Gateway Documentation Hub
+Azure Architecture Center
+Azure Architecture Center
+YouTube Channels
+John Savill's Technical Training
+Microsoft Azure YouTube Channel
+Hands-on Labs
+
+Build these in order:
+
+App Gateway → Two VMs
+App Gateway → App Service
+App Gateway + WAF
+App Gateway + Path Routing
+App Gateway + AKS + AGIC
+App Gateway + Key Vault certificates
+
+If you're targeting Azure Architect roles, I would spend at least a week building these six labs repeatedly until you can draw the complete request flow from memory. That level of understanding is what interviewers typically look for.
+```
