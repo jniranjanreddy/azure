@@ -108,7 +108,7 @@ What are the best practices for securing Azure App Gateway
 
 <img width="706" height="441" alt="image" src="https://github.com/user-attachments/assets/64481004-c25c-490b-a763-99c517ccc2e4" />
 
-```
+
 Best Learning Sources
 Microsoft Learn
 Azure Application Gateway Overview
@@ -132,4 +132,4 @@ App Gateway + AKS + AGIC
 App Gateway + Key Vault certificates
 
 If you're targeting Azure Architect roles, I would spend at least a week building these six labs repeatedly until you can draw the complete request flow from memory. That level of understanding is what interviewers typically look for.
-```
+
