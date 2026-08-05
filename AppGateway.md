@@ -1,4 +1,28 @@
 ## How to confogure Application Gateway.
+
+<img width="428" height="218" alt="image" src="https://github.com/user-attachments/assets/b3c3bb53-c73d-467b-a4ad-db46d78074ab" />
+<img width="623" height="347" alt="image" src="https://github.com/user-attachments/assets/8e1c1a30-5167-440a-8682-e1ddfb556a7f" />
+<img width="615" height="347" alt="image" src="https://github.com/user-attachments/assets/5d19cf5f-ed47-49b4-93c2-359ea37ca604" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 Source:  https://www.youtube.com/watch?v=QqXRBye8HLI&t=1s
 https://www.youtube.com/watch?v=n9uHSHO25cE&t=1s
