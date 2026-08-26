@@ -1,3 +1,4 @@
+## https://www.youtube.com/watch?v=dgQQpJq1asc&list=PLzBajgDniE4k4ye-kqg3oT72rUrrj8lAG
 ## https://medium.com/@luca_4339/istio-azure-app-gateway-for-containers-9a025c6d71ff
 
 flowchart LR
