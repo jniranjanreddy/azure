@@ -1,17 +1,3 @@
-## This Page us for only LAW.
-
-## Azure Gateway for Containers Logs..
-```
-There are three kinds of user query statements:
-
-A tabular expression statement
-A let statement
-A set statement
-
-```
-
-```
-
 Below is a comprehensive KQL operator reference with simple examples.
 1. Filtering and searching operators
 Assume we have a table named AppLogs.
@@ -430,5 +416,3 @@ Important: KQL has a distinction between tabular operators (such as where, join,
 - KQL Aggregation Functions
 - KQL Query Best Practices
 My recommendation: practice these against your actual AKS and Application Insights logs. You will learn KQL much faster by answering real troubleshooting questions than by memorizing operators.
-```
-
